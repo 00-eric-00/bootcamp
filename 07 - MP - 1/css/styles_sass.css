@@ -1,5 +1,5 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: sans-serif;
 }
 
 .navbar1 {
@@ -12,8 +12,25 @@ body {
 }
 
 .carousel-image {
-  height: 50vh;
+  height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -1;
+}
+
+.carousel-image-2 {
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+ul {
+  list-style: none;
+}
+
+#icon {
+  width: 30px;
 }

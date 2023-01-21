@@ -1,19 +1,31 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: sans-serif;
 }
 .navbar1 {
-  position: sticky;
-  top: 0px;
+	position: sticky;
+	top: 0px;
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid blue;
+	border-bottom: 2px solid blue;
 }
 .carousel-image {
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
 }
-#calculation {
+.carousel-image-2 {
+	height: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+ul {
+	list-style: none;
+}
+#icon {
+	width: 30px;
 }
