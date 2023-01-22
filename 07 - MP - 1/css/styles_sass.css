@@ -5,6 +5,7 @@ body {
 .navbar1 {
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 
 .nav-link:hover {
@@ -12,6 +13,7 @@ body {
 }
 
 .carousel-image {
+  position: relative;
   height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,10 +22,16 @@ body {
 }
 
 .carousel-image-2 {
+  position: relative;
   height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -1;
+}
+
+.importantcards {
+  position: relative;
   z-index: -1;
 }
 
